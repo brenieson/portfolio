@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Brandon Beh Goh Beh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="logo">Brandon Beh Goh Beh</a>
+    <!-- HAMBURGER BUTTON (VISIBLE ON MOBILE) -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Research & Writing</a>
+      <a href="contact.html">Contact</a>
+<!--
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="portfolio.html">Research & Writing</a>
+    -->
+    </nav>
+
+    
+
+  </header>
+
+  <main class="about-container">
+    
+    <!-- SECTION 1: NARRATIVE INTRO -->
+    <section class="about-hero">
+      <div class="about-bio">
+        <h1>About Me</h1>
+        <p>
+          I am a researcher, writer, and visual thinker fascinated by molecular dynamics and narrative design. My work combines wet-lab experimentation with computational modeling to explore complex biological systems, alongside creative writing that translates dense scientific concepts into accessible human stories.
+        </p>
+        <p>
+          Whether analyzing protein dynamics using GROMACS, crafting short fiction, or tutoring students in calculus and biochemistry, I aim to connect analytical precision with creative clarity.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ACADEMIC BACKGROUND -->
+    <section class="about-section">
+      <h2 class="section-title">Academic Background</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <span class="timeline-date">2026 – Present</span>
+          <h3>TEACH-NOW Certificate Program</h3>
+          <p class="timeline-sub">Moreland University</p>
+          <p>Secondary Science Teacher Certification track.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">Graduated Summa Cum Laude</span>
+          <h3>B.S. Biochemistry & Molecular Biology | B.S. Chemistry (ACS)</h3>
+          <p class="timeline-sub">Lincoln University of Pennsylvania</p>
+          <p>Double Minors in Bioinformatics and Computer Science.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: TECHNICAL SKILLS & METHODOLOGIES -->
+    <section class="about-section">
+      <h2 class="section-title">Technical Capabilities</h2>
+      <div class="skills-grid">
+        
+        <div class="skill-card">
+          <h3>Computational & Modeling</h3>
+          <p>GROMACS (Martini forcefields), cpptraj, pytraj, VMD, PyMOL.</p>
+          <div class="tags">
+            <span>Python</span><span>R</span><span>C++</span><span>Java</span><span>Shell</span><span>Git</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Analytical Chemistry</h3>
+          <p>ICP-MS, LC-MS/MS, GC-MS, Raman spectroscopy, polarimetry, refractometry, densitometry.</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Wet-Lab & Molecular Biology</h3>
+          <p>Cell culture, immunohistochemistry, histology staining, fluorescence microscopy, PCR, Western blotting, cloning.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4: BEYOND THE LAB -->
+    <section class="about-section">
+      <h2 class="section-title">Beyond the Bench</h2>
+      <p>
+        Outside the lab, I write poetry and short fiction, including award-winning stories published in <em>SIMBAA Magazine</em>. I am also an avid outdoor photographer capturing nature landscapes and enjoy distance running, soccer, trail walking, and rope jumping.
+      </p>
+    </section>
+
+    <!-- EXPANDABLE FULL CV SECTION -->
+    <section class="about-section full-cv-wrapper">
+    <div class="cv-header-toggle">
+        <h2>Detailed Record</h2>
+        <button id="toggleCvBtn" class="btn btn-secondary">
+        <span>Show Full Visual CV</span> ↓
+        </button>
+    </div>
+
+    <div id="fullCvContent" class="cv-content hidden">
+        <div class="cv-download-bar">
+        <p>Need a formal copy for academic or institutional review?</p>
+        <a href="Brandon_Goh_Beh_CV.pdf" class="btn btn-primary" download>Download Formal PDF CV</a>
+        </div>
+
+        <!-- FELLOWSHIPS & RESEARCH -->
+        <div class="cv-block">
+        <h3>Research Fellowships & Experience</h3>
+        <ul>
+            <li><strong>Stanford COMET Fellow</strong> — Stanford University School of Medicine (2026–2027)</li>
+            <li><strong>Stanford STaRS Research Intern</strong> — Wet-lab cell culture, histology, & microscopy (Summer 2026)</li>
+            <li><strong>Cardio-SURPH Research Fellow</strong> — Loyola University Chicago (Summer 2024, 2025)</li>
+            <li><strong>Undergraduate Researcher</strong> — Heavy metals & patulin analysis via ICP-MS & LC-MS/MS (2025)</li>
+        </ul>
+        </div>
+
+        <!-- AWARDS & PRESENTATIONS -->
+        <div class="cv-block">
+        <h3>Honors, Awards & Presentations</h3>
+        <ul>
+            <li><strong>Journal Publication</strong> — Co-author in <em>Journal of General Physiology</em> (2025)</li>
+            <li><strong>Best Poster Presentation</strong> — NOBCChE Annual Meeting (Computational/Biophysics 2024, 2025)</li>
+            <li><strong>Oral Presenter</strong> — 87th Intercollegiate Student Chemists Conference (2024)</li>
+            <li><strong>2nd Place</strong> — 11th Annual Guy A. Sims Short Fiction Competition (2026)</li>
+        </ul>
+        </div>
+
+        <!-- LEADERSHIP & CAMPUS INVOLVEMENT -->
+        <div class="cv-block">
+        <h3>Leadership & Service</h3>
+        <ul>
+            <li><strong>President</strong> — Beta Beta Beta (TriBeta) Biological Honor Society (Rho Psi Chapter)</li>
+            <li><strong>Vice President</strong> — African Student Association</li>
+            <li><strong>Student Senator</strong> — 77th & 78th Student Senates</li>
+            <li><strong>Team Manager & Middle-Distance Runner</strong> — Varsity Track & Field / Cross Country</li>
+        </ul>
+        </div>
+    </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Brandon Goh Beh. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="about.js"></script>
+</body>
+</html>

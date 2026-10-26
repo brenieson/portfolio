@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research & Writing — Brandon Goh Beh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="logo">Brandon Beh Goh Beh</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Research & Writing</a>
+      <a href="contact.html">Contact</a>
+      <!--
+      <a href="index.html">Home</a>
+      <a href="portfolio.html" class="active">Research & Writing</a>
+    -->
+    </nav>
+    
+    <!-- HAMBURGER BUTTON (VISIBLE ON MOBILE) -->
+    
+
+  </header>
+
+  <main class="portfolio-container">
+    <header class="page-header">
+      <h1>Research & Creative Work</h1>
+      <p>A collection of peer-reviewed scientific studies, computational projects, published literature, and personal writing.</p>
+    </header>
+
+    <!-- TAB FILTER BUTTONS -->
+    <div class="filter-tabs">
+      <button class="tab-btn active" data-filter="all">All Works</button>
+      <button class="tab-btn" data-filter="res-pub">Research (Published)</button>
+      <button class="tab-btn" data-filter="res-pass">Research (Passion Projects)</button>
+      <button class="tab-btn" data-filter="writ-pub">Writing (Published)</button>
+      <button class="tab-btn" data-filter="writ-pass">Writing (Passion Projects)</button>
+    </div>
+
+    <!-- PORTFOLIO GRID -->
+    <div class="portfolio-grid">
+
+      <!-- 1. RESEARCH (PUBLISHED) - GIF / STRUCTURAL MOVIE -->
+      <article class="item-card" data-category="res-pub">
+        <div class="card-media">
+          <img src="images/ablim1-md-simulation.gif" alt="ABLIM1 Molecular Dynamics Simulation Loop" class="card-media-img" />
+        </div>
+        <div class="card-content-inner">
+          <span class="badge badge-pub">Research • Published</span>
+          <h3><a href="research-ablim1.html" class="card-title-link">GSK3β-driven phosphorylation of ABLIM1</a></h3>
+          <p class="pub-details"><strong>Journal of General Physiology</strong> (2025)</p>
+          <p>Investigating dynamic interactions with titin in cardiac muscle using molecular modeling and wet-lab analysis.</p>
+        </div>
+      </article>
+
+      <!-- 2. RESEARCH (PASSION PROJECT) -->
+      <article class="item-card" data-category="res-pass">
+        <div class="card-media">
+          <img src="images/membrane-lipid-bilayer.gif" alt="Up and down regulated traget genes." class="card-media-img" />
+        </div>
+        <div class="card-content-inner">
+          <span class="badge badge-pass">Research • Passion Project</span>
+          <h3><a href="research-membrane-dynamics.html" class="card-title-link">Cardiac Arrythmia associated Genes</a></h3>
+          <p>Identifying potential genetic markers that could help easier and earlier diagnosis of arrythmias. Using differnetial analysis for identification of targets and potentially testing out those targets.</p>
+        </div>
+      </article>
+
+      <!-- 3. CREATIVE WRITING (PUBLISHED) - MAGAZINE SPREAD / COVER -->
+      <article class="item-card" data-category="writ-pub">
+        <div class="card-media">
+          <img src="images/simbaa-vol19-cover.jpg" alt="SIMBAA Magazine Short Fiction Spread" class="card-media-img" />
+        </div>
+        <div class="card-content-inner">
+          <span class="badge badge-pub">Writing • Published Poem</span>
+          <h3><a href="story-self-justified-man.html" class="card-title-link">The Self-Justified Unscripted Man</a></h3>
+          <p class="pub-details"><strong>SIMBAA Magazine</strong> (2026)</p>
+          <p>Award-winning short fiction piece exploring themes of identity, self-determination, and personal accountability.</p>
+        </div>
+      </article>
+
+      <!-- 4. POETRY - BLACK BOY ROOTS -->
+      <article class="item-card" data-category="writ-pub">
+        <div class="card-media">
+          <img src="images/simbaa-vol18-cover.jpg" alt="SIMBAA Magazine Volume 18 Cover" class="card-media-img" />
+        </div>
+        <div class="card-content-inner">
+          <span class="badge badge-pub">Writing • Published Story</span>
+          <h3><a href="poem-black-boy-roots.html" class="card-title-link">Black Boy Roots</a></h3>
+          <p class="pub-details"><strong>SIMBAA Magazine</strong> (Vol. 18)</p>
+          <p>Published poem exploring identity, heritage, and personal growth, featured in Volume 18.</p>
+        </div>
+      </article>
+
+      <!-- 5. POETRY - PAIN -->
+      <article class="item-card" data-category="writ-pub">
+        <div class="card-media">
+          <img src="images/simbaa-vol19-cover.jpg" alt="SIMBAA Magazine Volume 19 Cover" class="card-media-img" />
+        </div>
+        <div class="card-content-inner">
+          <span class="badge badge-pub">Writing • Published Poem</span>
+          <h3><a href="poem-pain.html" class="card-title-link">Pain</a></h3>
+          <p class="pub-details"><strong>SIMBAA Magazine</strong> (Vol. 19)</p>
+          <p>Published poem reflecting on human experience and resilience, featured in Volume 19.</p>
+        </div>
+      </article>
+
+      <!-- 6. POETRY - PASSION PROJECT -->
+      <article class="item-card" data-category="writ-pass">
+        <div class="card-media">
+          <img src="images/#" alt="A DYNAMIC DUO, A TRINITY TO BEHOLD" class="card-media-img" />
+        </div>
+        <div class="card-content-inner">
+          <span class="badge badge-pass">Writing • Passion Project Poem</span>
+          <h3><a href="poem-dynamic-duo.html" class="card-title-link">A Dynamic Duo</a></h3>
+          <p>Personal poem reflecting on what life is actually about. The relationships we have and build through friendship, faith, and Parents.</p>
+        </div>
+      </article>
+
+    </div>
+
+    </div>
+  </main>
+
+  <script src="portfolio.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

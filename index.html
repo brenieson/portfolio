@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandon Beh Goh Beh — Research & Creative Storytelling</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="index.html" class="logo">Brandon Beh Goh Beh</a>
+    <!-- 
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+      <span></span><span></span><span></span>
+    </button> 
+    -->
+   
+    <!-- HAMBURGER BUTTON (VISIBLE ON MOBILE) -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <!--<a href="#disciplines">Disciplines</a>-->
+      <a href="portfolio.html">Research & Writing</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="about" class="hero">
+    <div class="hero-content">
+      <h1>Scientific Research and creative storytelling</h1>
+      <p class="subtitle">
+        Researcher, writer, and visual thinker exploring the intersection of molecular science and narrative design.
+      </p>
+      <div class="cta-group">
+        <a href="about.html" class="btn btn-primary" id="openCvBtn">Visual CV</a>
+        <a href="portfolio.html" class="btn btn-secondary">Writing & Research</a>      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/headshot.jpg" alt="Brandon Beh Goh Beh" />
+    </div>
+  </section>
+
+  <!-- CORE DISCIPLINES -->
+  <section id="disciplines" class="disciplines">
+    <h2 class="section-title">Core Disciplines</h2>
+    <div class="card-grid-3">
+      
+      <!-- CARD 1: BIOPHYSICS & WET-LAB -->
+      <div class="card">
+        <div class="icon">🧬</div>
+        <h3>Biophysics & Wet-Lab Assays</h3>
+        <p> Aspire to leverage wet-lab techniques and physical modeling to investigate disease mechanisms, drug discovery targets, and therapeutic/vaccine development.</p>
+        <div class="tags">
+          <span>Cell Culture</span>
+          <span>LC-MS/MS</span>
+          <span>ICP-MS</span>
+          <span>Microscopy</span>
+          <span>IHC</span>
+          <span>Drug Discovery</span>
+          <span>Therapeutics</span>
+          <span>Vaccines</span>
+        </div>
+      </div>
+
+      <!-- CARD 2: COMPUTATIONAL MODELING -->
+      <div class="card">
+        <div class="icon">💻</div>
+        <h3>Computational Modeling & MD</h3>
+        <p>Executing molecular dynamics simulations and trajectory analysis to study structural dynamics, molecular interactions, and macromolecular behavior.</p>
+        <div class="tags">
+          <span>GROMACS</span>
+          <span>Martini FF</span>
+          <span>cpptraj</span>
+          <span>Python</span>
+          <span>PyMOL</span>
+        </div>
+      </div>
+
+      <!-- CARD 3: CREATIVE WRITING & SCICOMM -->
+      <div class="card">
+        <div class="icon">📝</div>
+        <h3>Creative Writing & Narrative</h3>
+        <p>Crafting short fiction, essays, and science communication pieces from research, human experience and storytelling.</p>
+        <div class="tags">
+          <span>Fiction</span>
+          <span>Essays</span>
+          <span>SciComm</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--
+  <section id="disciplines" class="disciplines">
+    <h2 class="section-title">Core Disciplines</h2>
+    <div class="card-grid-3">
+      <div class="card">
+        <div class="icon">🧬</div>
+        <h3>Biophysics</h3>
+        <p>Investigating protein-lipid interactions, membrane remodeling dynamics, and mechanical properties through computational modeling and wet-lab techniques.</p>
+      </div>
+      <div class="card">
+        <div class="icon">💻</div>
+        <h3>Computational Tools</h3>
+        <p>Developing customized pipelines for molecular dynamics simulation analysis (GROMACS, cpptraj, Python/R) and high-density data visualization.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📝</div>
+        <h3>Creative Writing</h3>
+        <p>Crafting long-form essays, short fiction, and accessible science communication pieces that bridge hard datasets and human experiences.</p>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- FEATURED SHOWCASE -->
+  <section id="showcase" class="showcase">
+    <h2 class="section-title">Featured Showcase</h2>
+    <div class="card-grid-2">
+
+      <!-- FEATURED ITEM 1: RESEARCH PUBLICATION -->
+      <article class="card featured-card">
+        <div class="card-image-wrapper">
+          <img src="images/m_jgp_157_5.cover.png" alt="ABLIM1 molecular dynamics simulation trajectory" class="card-thumb" />
+          <span class="card-badge">Research • Published</span>
+        </div>
+        <div class="card-body">
+          <h3>GSK3β-driven Phosphorylation of ABLIM1</h3>
+          <p class="card-meta"><em>Journal of General Physiology</em> (2025)</p>
+          <p>Investigating how GSK3β-driven phosphorylation regulates the interactions of actin-binding LIM protein 1 (ABLIM1) with titin in cardiac muscle using molecular dynamics simulations and biophysical modeling.</p>
+          <div class="tags">
+            <span>Biophysics</span>
+            <span>GROMACS</span>
+            <span>Cardiac Muscle</span>
+            <span>Molecular Dynamics</span>
+          </div>
+          <div class="card-action">
+            <a href="https://rupress.org/jgp/article/157/5/e202413737/278285/GSK3-driven-phosphorylation-of-ABLIM1-regulates" target="_blank" rel="noopener noreferrer" class="btn-link">
+              Read Publication <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- FEATURED ITEM 2: CREATIVE WRITING AWARD -->
+      <article class="card featured-card">
+        <div class="card-image-wrapper">
+          <img src="images/simbaa_19.png" alt="SIMBAA Magazine publication issue cover" class="card-thumb" />
+          <span class="card-badge badge-writing">Writing • Published</span>
+        </div>
+        <div class="card-body">
+          <h3>The Self-Justified Unscripted Man</h3>
+          <p class="card-meta">Published in <em>SIMBAA Magazine</em> | 2nd Prize, Guy A. Sims Competition</p>
+          <p>An award-winning short fiction piece exploring themes of identity, self-determination, and personal accountability, recognized at the 11th Annual Guy A. Sims Short Fiction Competition.</p>
+          <div class="tags">
+            <span>Short Fiction</span>
+            <span>SIMBAA Magazine</span>
+            <span>Creative Writing</span>
+          </div>
+          <div class="card-action">
+            <a href="story-self-justified-man.html" class="btn-link">
+              Read Story <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!---
+      <article class="card featured-card">
+        <div class="card-thumb">
+          <img src="images/simbaa_19.png" alt="SIMBAA VOL19 Page 84" />
+        </div>
+        <div class="card-badge">2nd Prize • Short Fiction</div>
+        <h3>The Self-Justified Unscripted Man</h3>
+        <p class="card-meta">Published in <em>SIMBAA Magazine</em> | Guy A. Sims Competition</p>
+        <p>An award-winning short fiction piece exploring themes of identity, self-determination, and personal accountability, recognized at the 11th Annual Guy A. Sims Short Fiction Competition.</p>
+        <div class="tags">
+          <span>Short Fiction</span>
+          <span>SIMBAA Magazine</span>
+          <span>Creative Writing</span>
+        </div>
+      </article>
+      
+      <article class="project-card">
+        <div class="card-thumb">
+          <img src="membrane-research.jpg" alt="Membrane Curvature Project" />
+        </div>
+        <div class="card-body">
+          <span class="category-tag">RESEARCH</span>
+          <h3>Membrane Curvature & Mechanics</h3>
+          <p>A visual interactive exploration detailing dynamic protein scaffolding inside molecular cellular envelopes.</p>
+          <div class="tags">
+            <span>Molecular Dynamics</span>
+            <span>Biophysics</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="card-thumb">
+          <img src="/images/short-story.jpg" alt="Narrative of the Cell" />
+        </div>
+        <div class="card-body">
+          <span class="category-tag">PUBLICATION</span>
+          <h3>The Narrative of the Cell</h3>
+          <p>An essay exploring the history of scientific metaphors and literary techniques in molecular biology.</p>
+          <div class="tags">
+            <span>Science Communication</span>
+            <span>Essay</span>
+          </div>
+        </div>
+      </article>
+    -->
+
+    </div>
+  </section>
+
+  <!-- FOOTER / CONTACT -->
+  <footer id="contact" class="site-footer">
+    <div class="footer-content">
+      <h3>Brandon Beh Goh Beh</h3>
+      <p>Let's connect on research, writing, or design.</p>
+      <a href="mailto:gohbehb@gmail.com" class="email-link">gohbehb@gmail.com</a>
+      <div class="social-links">
+        <a href="https://github.com/brenieson" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/brandon-beh-goh-beh" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://www.instagram.com/brenieson/" aria-label="Instagram">Instagram</a>
+      </div>
+      <p class="copyright">&copy; 2026 Brandon Beh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

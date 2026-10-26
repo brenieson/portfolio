@@ -1,0 +1,187 @@
+<!-- 1. RESEARCH (OFFICIAL / PUBLISHED) -->
+      <article class="item-card" data-category="res-pub">
+        <span class="badge badge-pub">Research • Published</span>
+        <h3>GSK3β-driven phosphorylation of ABLIM1</h3>
+        <p class="pub-details"><strong>Journal of General Physiology</strong> (2025)</p>
+        <p>Investigating dynamic interactions with titin in cardiac muscle using molecular modeling and wet-lab analysis.</p>
+      </article>
+
+      <!-- 2. RESEARCH (UNOFFICIAL / PASSION PROJECT) -->
+      <article class="item-card" data-category="res-pass">
+        <span class="badge badge-pass">Research • Passion Project</span>
+        <h3>Coarse-Grained Membrane Dynamics</h3>
+        <p>Developing custom GROMACS and Martini forcefield simulation pipelines to analyze high-density lipid envelopes.</p>
+      </article>
+
+      <!-- 3. CREATIVE WRITING (OFFICIAL / PUBLISHED) -->
+      <article class="item-card" data-category="writ-pub">
+        <span class="badge badge-pub">Writing • Published</span>
+        <h3>The Self-Justified Unscripted Man</h3>
+        <p class="pub-details"><strong>SIMBAA Magazine</strong> (2026)</p>
+        <p>Award-winning short fiction story exploring themes of personal accountability and agency.</p>
+      </article>
+
+      <!-- 4. CREATIVE WRITING (UNOFFICIAL / PASSION PROJECT) -->
+      <article class="item-card" data-category="writ-pass">
+        <span class="badge badge-pass">Writing • Passion Project</span>
+        <h3>Metaphors in Molecular Biology</h3>
+        <p>An ongoing personal essay collection bridging hard scientific datasets with human storytelling techniques.</p>
+      </article>
+      
+      
+      
+      <!-- CARD 1: RESEARCH ARTICLE -->
+      <article class="portfolio-card" data-category="computational">
+        <div class="card-content">
+          <span class="project-category">Research • Published</span>
+          <h3><a href="research-ablim1.html" class="card-title-link">GSK3β-driven Phosphorylation of ABLIM1</a></h3>
+          <p>Investigating sarcolemmal protein dynamics in cardiac muscle via GROMACS MD simulations and biophysical modeling.</p>
+          <div class="card-action">
+            <a href="research-ablim1.html" class="btn-link">Read Article & Synopsis <span class="arrow">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 2: SHORT STORY -->
+      <article class="portfolio-card" data-category="creative">
+        <div class="card-content">
+          <span class="project-category">Writing • Published</span>
+          <h3><a href="story-self-justified-man.html" class="card-title-link">The Self-Justified Unscripted Man</a></h3>
+          <p>Award-winning short fiction piece exploring themes of identity, self-determination, and personal accountability.</p>
+          <div class="card-action">
+            <a href="story-self-justified-man.html" class="btn-link">Read Story <span class="arrow">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 3: POETRY -->
+      <article class="portfolio-card" data-category="creative">
+        <div class="card-content">
+          <span class="project-category">Writing • Poetry</span>
+          <h3><a href="poem-sample.html" class="card-title-link">Selected Poetry Piece</a></h3>
+          <p>An exploratory poem examining personal growth, reflection, and human experience.</p>
+          <div class="card-action">
+            <a href="poem-sample.html" class="btn-link">Read Poem <span class="arrow">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 1: RESEARCH PUBLICATION -->
+      <div class="card portfolio-card" data-category="computational">
+        <div class="card-badge">Research • Published</div>
+        <h3><a href="research-ablim1.html" class="card-title-link">GSK3β-driven Phosphorylation of ABLIM1</a></h3>
+        <p class="card-meta"><em>Journal of General Physiology</em> (2025)</p>
+        <p>Investigating how GSK3β-driven phosphorylation regulates the interactions of ABLIM1 with titin in cardiac muscle using molecular dynamics simulations and biophysical modeling.</p>
+        <div class="tags">
+          <span>Biophysics</span>
+          <span>GROMACS</span>
+          <span>Cardiac Muscle</span>
+          <span>Molecular Dynamics</span>
+        </div>
+        <div class="card-action">
+          <a href="research-ablim1.html" class="btn-link">Read Article & Synopsis <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <!-- CARD 2: SHORT FICTION -->
+      <div class="card portfolio-card" data-category="creative">
+        <div class="card-badge badge-writing">Writing • Published</div>
+        <h3><a href="story-self-justified-man.html" class="card-title-link">The Self-Justified Unscripted Man</a></h3>
+        <p class="card-meta">Published in <em>SIMBAA Magazine</em> | 2nd Prize, Guy A. Sims Competition</p>
+        <p>An award-winning short fiction piece exploring themes of identity, self-determination, and personal accountability.</p>
+        <div class="tags">
+          <span>Short Fiction</span>
+          <span>SIMBAA Magazine</span>
+          <span>Creative Writing</span>
+        </div>
+        <div class="card-action">
+          <a href="story-self-justified-man.html" class="btn-link">Read Story <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+      <!-- CARD 3: POETRY -->
+      <div class="card portfolio-card" data-category="creative">
+        <div class="card-badge badge-writing">Writing • Poetry</div>
+        <h3><a href="poem-sample.html" class="card-title-link">Selected Poetry Piece</a></h3>
+        <p class="card-meta">Original Works</p>
+        <p>An exploratory poem examining personal growth, reflection, and human experience.</p>
+        <div class="tags">
+          <span>Poetry</span>
+          <span>Creative Writing</span>
+        </div>
+        <div class="card-action">
+          <a href="poem-sample.html" class="btn-link">Read Poem <span class="arrow">→</span></a>
+        </div>
+      </div>
+
+
+#Below was removed from portfolio grid on 10/25/2026, for a cleaner space before deployment
+
+      <!-- 1. RESEARCH (OFFICIAL / PUBLISHED) -->
+      <article class="item-card" data-category="res-pub">
+        <span class="badge badge-pub">Research • Published</span>
+        <h3><a href="research-ablim1.html" class="card-title-link">GSK3β-driven phosphorylation of ABLIM1</a></h3>
+        <p class="pub-details"><strong>Journal of General Physiology</strong> (2025)</p>
+        <p>Investigating dynamic interactions with titin in cardiac muscle using molecular modeling and wet-lab analysis.</p>
+      </article>
+
+      <!-- 2. RESEARCH (UNOFFICIAL / PASSION PROJECT) -->
+      <article class="item-card" data-category="res-pass">
+        <span class="badge badge-pass">Research • Passion Project</span>
+        <h3><a href="research-membrane-dynamics.html" class="card-title-link">Coarse-Grained Membrane Dynamics</a></h3>
+        <p>Developing custom GROMACS and Martini forcefield simulation pipelines to analyze high-density lipid envelopes.</p>
+      </article>
+
+      <!-- 3. CREATIVE WRITING (OFFICIAL / PUBLISHED) -->
+      <article class="item-card" data-category="writ-pub">
+        <span class="badge badge-pub">Writing • Published</span>
+        <h3><a href="story-self-justified-man.html" class="card-title-link">The Self-Justified Unscripted Man</a></h3>
+        <p class="pub-details"><strong>SIMBAA Magazine</strong> (2026)</p>
+        <p>Award-winning short fiction piece exploring themes of identity, self-determination, and personal accountability.</p>
+      </article>
+
+      <!-- 4. CREATIVE WRITING (UNOFFICIAL / PASSION PROJECT) -->
+      <article class="item-card" data-category="writ-pass">
+        <span class="badge badge-pass">Writing • Passion Project</span>
+        <h3><a href="essay-metaphors-molecular-biology.html" class="card-title-link">Metaphors in Molecular Biology</a></h3>
+        <p>An ongoing personal essay collection bridging hard scientific datasets with human storytelling techniques.</p>
+      </article>
+
+      <!-- 5. CREATIVE WRITING (POETRY - VOL 18) -->
+      <article class="item-card" data-category="writ-pub">
+        <span class="badge badge-pub">Writing • Published</span>
+        <h3><a href="poem-simbaa-vol18.html" class="card-title-link">Black Boy Roots</a></h3>
+        <p class="pub-details"><strong>SIMBAA Magazine</strong> (Vol. 18)</p>
+        <p>Published poem selection exploring identity, heritage, and personal growth, featured in Volume 18.</p>
+      </article>
+
+      <!-- 6. CREATIVE WRITING (POETRY - VOL 19) -->
+      <article class="item-card" data-category="writ-pub">
+        <span class="badge badge-pub">Writing • Published</span>
+        <h3><a href="poem-simbaa-vol19.html" class="card-title-link">Pain</a></h3>
+        <p class="pub-details"><strong>SIMBAA Magazine</strong> (Vol. 19)</p>
+        <p>Published poem reflecting on human experience and resilience, featured in Volume 19.</p>
+      </article>
+      
+      <!-- 7. CREATIVE WRITING (POETRY) -->
+      <article class="item-card" data-category="writ-pass">
+        <span class="badge badge-pass">Writing • Poetry</span>
+        <h3><a href="poem-sample.html" class="card-title-link">Selected Poetry Collection</a></h3>
+        <p>Exploratory poetry examining personal growth, reflection, and human experience.</p>
+      </article>
+      
+      <!-- 8: POETRY -->
+      <div class="card portfolio-card" data-category="creative">
+       <!-- <div class="card-badge badge-writing">Writing • Poetry</div> -->
+        <h3><a href="poem-sample.html" class="card-title-link">Selected Poetry Piece</a></h3>
+        <p class="card-meta">Original Works</p>
+        <p>An exploratory poem examining personal growth, reflection, and human experience.</p>
+        <div class="tags">
+          <span>Poetry</span>
+          <span>Creative Writing</span>
+        </div>
+        <div class="card-action">
+          <a href="poem-sample.html" class="btn-link">Read Poem <span class="arrow">→</span></a>
+        </div>
+      </div>
+
